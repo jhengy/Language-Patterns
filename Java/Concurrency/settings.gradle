@@ -1,2 +1,3 @@
 rootProject.name = 'Concurrency'
-
+include ':logging'
+project(':logging').projectDir = new File("../Logging")

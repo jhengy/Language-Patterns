@@ -10,6 +10,14 @@ repositories {
 }
 
 dependencies {
+    // https://mvnrepository.com/artifact/io.projectreactor/reactor-core
+    implementation group: 'io.projectreactor', name: 'reactor-core', version: '3.4.21'
+
+    implementation project(':logging')
+
+    testImplementation(
+            'org.hamcrest:hamcrest-library:2.2'
+    )
     testImplementation 'org.junit.jupiter:junit-jupiter-api:5.7.0'
     testRuntimeOnly 'org.junit.jupiter:junit-jupiter-engine:5.7.0'
 }
