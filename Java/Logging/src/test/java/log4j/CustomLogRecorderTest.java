@@ -41,8 +41,6 @@ class CustomLogRecorderTest {
         logger.info("log to test with param={}", 1);
         logger.info("log to test with param={}", new TestClass(1));
 
-        ILoggingEvent iLoggingEvent = iLoggingEventListAppender.list.get(0);
-
         List<?> intArgs = CustomLogRecorder.getLoggingEvent(iLoggingEventListAppender, Integer.class);
         assertThat(intArgs.size(), is(1));
 
