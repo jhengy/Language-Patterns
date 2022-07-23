@@ -1,4 +1,4 @@
-package log4j;
+package customLogger;
 
 
 import ch.qos.logback.classic.Logger;
