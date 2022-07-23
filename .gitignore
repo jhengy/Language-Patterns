@@ -5,7 +5,9 @@
 *.ipr
 /out/
 
-# gradle
+# any .gradle foler
 .gradle
-/build/
+# any build dir
+build
 !gradle/wrapper/gradle-wrapper.jar
+
