@@ -11,6 +11,7 @@ skinparam {
   ParticipantPadding 5
   BoxPadding 50
   roundCorner 15
+  ' auto text wrapping
   maxMessageSize 200
   PageMargin 20
 }
@@ -82,6 +83,7 @@ $init()
 '==================  sequence diagram constructs =======================
 ' format label
 a -> b: <back:#dee3e0><color:red>formatted text</color></back>
+a -> b : hello with [[http://plantuml.com/start some link]]
 
 ' arrow and format
 b-[#red]> a : hello
@@ -96,11 +98,6 @@ b ->o a
 b o\\-- a
 b <-> a
 b <->o a
-
-' group and formatting
-group#pink #orange group a
-  a -> b: step in group a
-end
 
 ' note and formatting
 note left of a 
@@ -133,6 +130,44 @@ a -> b: Done
 deactivate a
 
 destroy a
+
+' delay
+...
+
+
+' reference
+ref over a,b
+  this can 
+  be on serveral lines
+end ref
+
+' group and formatting
+group#pink #orange group a
+  a -> b: step in group a
+end
+
+a -> b: Authentication Request
+
+alt successful case
+
+    b -> a: Authentication Accepted
+
+else some kind of failure
+
+    b -> a: Authentication Failure
+    group My own label
+    a -> Log : Log attack start
+        loop 1000 times
+            a -> b: DNS Attack
+        end
+    a -> Log : Log attack end
+    end
+
+else Another type of failure
+
+   b -> a: Please repeat
+
+end
 
 
 ====
