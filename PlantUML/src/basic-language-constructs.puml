@@ -8,7 +8,11 @@
 ' define global scope variable(int, string, json)
 !$num = 1
 !$string="test"
-!$CONFIG = {"mode":"DEBUG"}
+
+' set $CONFIG if not already set
+!if (%get_json_type($CONFIG) != "object")
+  !$CONFIG = {"mode":"DEBUG"}
+!endif
 
 ' procedure to dynamically generate template
 ' args and args with default values (no object values)

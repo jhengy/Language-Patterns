@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" contentStyleType="text/css" height="321px" preserveAspectRatio="none" style="width:516px;height:321px;background:#FFFFFF;" version="1.1" viewBox="0 0 516 321" width="516px" zoomAndPan="magnify"><defs><filter height="1" id="b12h9ecxh1ew1c0" width="1" x="0" y="0"><feFlood flood-color="#DEE3E0" result="flood"/><feComposite in="SourceGraphic" in2="flood" operator="over"/></filter></defs><g><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="16" x2="16" y1="36.2969" y2="286.2266"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="132.5" x2="132.5" y1="36.2969" y2="286.2266"/><line style="stroke:#181818;stroke-width:0.5;stroke-dasharray:5.0,5.0;" x1="372" x2="372" y1="36.2969" y2="286.2266"/><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="22" x="5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="12" y="24.9951">a</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="22" x="5" y="285.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="8" x="12" y="305.2217">a</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="23" x="121.5" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="128.5" y="24.9951">b</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="23" x="121.5" y="285.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="9" x="128.5" y="305.2217">b</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="32" x="356" y="5"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="363" y="24.9951">db</text><rect fill="#E2E2F0" height="30.2969" rx="2.5" ry="2.5" style="stroke:#181818;stroke-width:0.5;" width="32" x="356" y="285.2266"/><text fill="#000000" font-family="sans-serif" font-size="14" lengthAdjust="spacing" textLength="18" x="363" y="305.2217">db</text><polygon fill="#181818" points="121,63.4297,131,67.4297,121,71.4297,125,67.4297" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="127" y1="67.4297" y2="67.4297"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="22" x="23" y="62.3638">say</text><text fill="#FF0000" filter="url(#b12h9ecxh1ew1c0)" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="67" x="49" y="62.3638">Hello once</text><polygon fill="#181818" points="360,92.5625,370,96.5625,360,100.5625,364,96.5625" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="133" x2="366" y1="96.5625" y2="96.5625"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="215" x="140" y="91.4966">show some action in debug mode</text><line style="stroke:#181818;stroke-width:1.0;" x1="372" x2="414" y1="125.6953" y2="125.6953"/><line style="stroke:#181818;stroke-width:1.0;" x1="414" x2="414" y1="125.6953" y2="138.6953"/><line style="stroke:#181818;stroke-width:1.0;" x1="373" x2="414" y1="138.6953" y2="138.6953"/><polygon fill="#181818" points="383,134.6953,373,138.6953,383,142.6953,379,138.6953" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="130" x="379" y="120.6294">alice has salary  100</text><line style="stroke:#181818;stroke-width:1.0;" x1="372" x2="414" y1="167.8281" y2="167.8281"/><line style="stroke:#181818;stroke-width:1.0;" x1="414" x2="414" y1="167.8281" y2="180.8281"/><line style="stroke:#181818;stroke-width:1.0;" x1="373" x2="414" y1="180.8281" y2="180.8281"/><polygon fill="#181818" points="383,176.8281,373,180.8281,383,184.8281,379,180.8281" style="stroke:#181818;stroke-width:1.0;"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="117" x="379" y="162.7622">bob has salary  50</text><polygon fill="#181818" points="121,205.9609,131,209.9609,121,213.9609,125,209.9609" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="127" y1="209.9609" y2="209.9609"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="23" y="204.895">call 1x</text><polygon fill="#181818" points="121,235.0938,131,239.0938,121,243.0938,125,239.0938" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="127" y1="239.0938" y2="239.0938"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="23" y="234.0278">call 1x</text><polygon fill="#181818" points="121,264.2266,131,268.2266,121,272.2266,125,268.2266" style="stroke:#181818;stroke-width:1.0;"/><line style="stroke:#181818;stroke-width:1.0;" x1="16" x2="127" y1="268.2266" y2="268.2266"/><text fill="#000000" font-family="sans-serif" font-size="13" lengthAdjust="spacing" textLength="40" x="23" y="263.1606">call 1x</text><!--MD5=[884699f4a3c8464728770701a195571b]
+@startuml Basic Language Constructs
+!$CONFIG = {"mode":"DEBUG"}
+' function or procedure can be included
+!include ./common/common.puml
+
+'============= Preprocessor =============
+' https://plantuml.com/preprocessing
+
+' define global scope variable(int, string, json)
+!$num = 1
+!$string="test"
+
+
+' set $CONFIG if not already set
+!if (%get_json_type($CONFIG) != "object")
+  !$CONFIG = {"mode":"DEBUG"}
+!endif
+
+
+' procedure to dynamically generate template
+' args and args with default values (no object values)
+!procedure $init($message="Hello once")
+  ' procedure uses function defined in another file
+  a -> b: say $code($message)
+
+  !if ($CONFIG.mode == "DEBUG")
+    b -> db: show some action in debug mode
+  !endif
+
+!endprocedure
+
+$init()
+
+!$foo = { "company": "Skynet", "employees" : [
+  {"name" : "alice", "salary": 100 },
+  {"name" : "bob", "salary": 50} ]
+}
+
+' use for each loop over a JSON
+!foreach $emp in $foo.employees
+  db -> db: $emp.name has salary  $emp.salary
+!endfor
+
+' use while loop
+!$count = 3
+!while $count != 0
+  a -> b: call 1x
+  !$count = $count - 1
+!endwhile
+
+@enduml
+
+@startuml Basic Language Constructs
+
+
+
+
+
+
+
+
+  a -> b: say <back:#dee3e0><color:red>Hello once</color></back>
+
+    b -> db: show some action in debug mode
+
+
+
+  db -> db: alice has salary  100
+  db -> db: bob has salary  50
+
+  a -> b: call 1x
+  a -> b: call 1x
+  a -> b: call 1x
+
+@enduml
+
+PlantUML version 1.2022.8(Sun Sep 25 17:00:33 SGT 2022)
+(GPL source distribution)
+Java Runtime: OpenJDK Runtime Environment
+JVM: OpenJDK 64-Bit Server VM
+Default Encoding: UTF-8
+Language: en
+Country: US
+--></g></svg>

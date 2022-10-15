@@ -18,4 +18,6 @@ java -jar plantuml.jar sequenceDiagram.txt
 # specify output format
 cd src
 java -jar ../build/plantuml.jar . -tsgv -x "**/common/**" -o ../build
+
+java -jar ../build/plantuml.jar ./basic-language-constructs.puml -tsvg -x "**/common/**" -config ../config.cfg
 ```
