@@ -1,0 +1,44 @@
+@startuml Basic Language Constructs
+' function or procedure can be included
+!include ./common/common.puml
+
+'============= Preprocessor =============
+' https://plantuml.com/preprocessing
+
+' define global scope variable(int, string, json)
+!$num = 1
+!$string="test"
+!$CONFIG = {"mode":"DEBUG"}
+
+' procedure to dynamically generate template
+' args and args with default values (no object values)
+!procedure $init($message="Hello once")
+  ' procedure uses function defined in another file
+  a -> b: say $code($message)
+
+  !if ($CONFIG.mode == "DEBUG")
+    b -> db: show some action in debug mode
+  !endif
+
+!endprocedure
+
+$init()
+
+!$foo = { "company": "Skynet", "employees" : [
+  {"name" : "alice", "salary": 100 },
+  {"name" : "bob", "salary": 50} ]
+}
+
+' use for each loop over a JSON
+!foreach $emp in $foo.employees
+  db -> db: $emp.name has salary  $emp.salary
+!endfor
+
+' use while loop
+!$count = 3
+!while $count != 0
+  a -> b: call 1x
+  !$count = $count - 1
+!endwhile
+
+@enduml

@@ -1,0 +1,14 @@
+@startuml
+'function can be reused multiple times in procedure
+!function $code($text)
+!return "<back:#dee3e0><color:red>" + $text + "</color></back>"
+!endfunction
+
+!function $getReqText($req_method, $req_path, $param)
+!if ($param == "")
+!return $code($req_method + " " + $req_path)
+!else
+!return "<back:#dee3e0><color:red>" + $req_method + " " + $req_path + "</color></back>" + "\n<color:orange>" + $param + "</color>"
+!endif
+!endfunction
+@enduml
